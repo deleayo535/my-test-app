@@ -24,3 +24,19 @@
 
   color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 290px;
+    height: 282px;
+    left: 70px;
+    top: 207px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.05em;
+  }
+}

@@ -4,8 +4,10 @@ import { cardProps } from "./Cards.types";
 const MovieCard = ({ movieName, movieDescription, movieImage }: cardProps) => {
   return (
     <div>
-      <div className={`rounded-md ${classes.movieCard}`}>
-        <div>
+      <div
+        className={`flex justify-center items-center rounded-md ${classes.movieCard}`}
+      >
+        <div className="items-center m-auto">
           <p className="text-base text-white font-bold text-base hover:text-lg font-['Work Sans']">
             {movieName}
           </p>

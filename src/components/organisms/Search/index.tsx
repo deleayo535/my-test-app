@@ -21,8 +21,8 @@ export const Search = () => {
 
   return (
     <div>
-      <div className="mb-8">
-        <div className="pb-1 ml-16 mt-4">
+      <div className="mb-8 max-md:ml-4">
+        <div className="pb-1 ml-16 mt-4 max-md:ml-4">
           <div className={`${classes.searchTxt}`}>Search</div>
         </div>
         <div className="flex max-md:flex-col max-lg:flex-col max-md:space-x-0 max-md:space-y-4 max-lg:space-x-0 max-lg:space-y-4 space-x-4 justify-center">
