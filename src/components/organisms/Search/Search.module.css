@@ -1,0 +1,21 @@
+.search {
+  width: 1006px;
+  height: 54px;
+
+  border: 1px solid #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.searchTxt {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
