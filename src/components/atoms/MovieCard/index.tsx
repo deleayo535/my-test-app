@@ -1,7 +1,7 @@
 import classes from "./MovieCard.module.css";
 import { cardProps } from "./Cards.types";
 
-const MovieCard = ({ movieName, movieDescription, movieImage }: cardProps) => {
+const MovieCard = ({ movieName, movieDescription }: cardProps) => {
   return (
     <div>
       <div

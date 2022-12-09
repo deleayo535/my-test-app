@@ -18,7 +18,7 @@ const MovieList = () => {
 
   useEffect(() => {
     getMovie();
-  }, []);
+  }, [movie]);
 
   return (
     <div className="m-14 max-md:m-6">

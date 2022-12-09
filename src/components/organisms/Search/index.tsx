@@ -15,9 +15,9 @@ export const Search = () => {
     });
   };
 
-  const handleSubmit = () => {
-    //send inputs to subscribe api
-  };
+  // const handleSubmit = () => {
+  //   //send inputs to subscribe api
+  // };
 
   return (
     <div>

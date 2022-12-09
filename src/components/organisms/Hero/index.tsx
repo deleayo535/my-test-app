@@ -1,4 +1,3 @@
-import MovieCard from "../../atoms/MovieCard";
 import { Search } from "../Search";
 import classes from "./hero.module.css";
 
