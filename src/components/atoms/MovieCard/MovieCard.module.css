@@ -10,3 +10,9 @@
 
   background: #000000;
 }
+
+@media screen and (max-width: 768px) {
+  .movieCard {
+    width: 320px;
+  }
+}

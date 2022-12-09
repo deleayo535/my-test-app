@@ -21,27 +21,35 @@ const MovieList = () => {
   }, []);
 
   return (
-    <div className="m-14 max-md:m-8">
+    <div className="m-14 max-md:m-6">
       <div className="mb-4">
         <p className={`${classes.title}`}>Movie Category Name</p>
       </div>
 
-      <div className="flex gap-4 max-md:flex-col">
-        <MovieCard movieDescription="" movieName="Movie" />
-        <MovieCard movieDescription="" movieName="Movie" />
-        <MovieCard movieDescription="" movieName="Movie" />
-        <MovieCard movieDescription="" movieName="Movie" />
+      <div className={`${classes.wrapper} horizontalSlide`}>
+        <div className={`${classes.slideWrapper} flex gap-4 max-md:flex-col`}>
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+        </div>
       </div>
 
       <div className="mb-4 mt-4 max-md:mt-8">
         <p className={`${classes.title}`}>Movie Category Name</p>
       </div>
 
-      <div className="flex gap-4 max-md:flex-col">
-        <MovieCard movieDescription="" movieName="Movie" />
-        <MovieCard movieDescription="" movieName="Movie" />
-        <MovieCard movieDescription="" movieName="Movie" />
-        <MovieCard movieDescription="" movieName="Movie" />
+      <div className={`${classes.wrapper} horizontalSlide`}>
+        <div className={`${classes.slideWrapper} flex gap-4 max-md:flex-col`}>
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+          <MovieCard movieDescription="" movieName="Movie" />
+        </div>
       </div>
     </div>
   );

@@ -6,3 +6,18 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+.wrapper {
+  overflow-x: scroll;
+  margin-top: 20px;
+}
+
+.slideWrapper {
+  cursor: pointer;
+  display: flex;
+  width: max-content;
+}
+
+.horizontalSlide::-webkit-scrollbar {
+  display: none;
+}

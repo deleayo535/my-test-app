@@ -18,21 +18,24 @@
   top: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 667px) {
   .header {
+    height: 100px;
     width: 100%;
   }
 
   .logo {
-    left: 102px;
+    top: 20px;
+    left: 110px;
     margin: auto;
-    /* width: 143px; */
+    width: 140px;
     /* justify-items: center; */
   }
 }
 
 @media screen and (max-width: 1024px) {
   .logo {
+    /* left: 1100px !important; */
     display: flex;
     margin: auto;
     justify-items: center;

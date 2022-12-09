@@ -19,9 +19,14 @@
   letter-spacing: 0em;
   text-align: left;
 }
+@media screen and (max-width: 1024px) {
+  .search {
+    /* width: 840px !important; */
+  }
+}
 
 @media screen and (max-width: 768px) {
   .search {
-    width: 380px;
+    width: 340px;
   }
 }

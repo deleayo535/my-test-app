@@ -5,8 +5,8 @@ import classes from "./hero.module.css";
 const Hero = () => {
   return (
     <div>
-      <div className={`${classes.heroHead}`}>
-        <div className={`${classes.content}`}>
+      <div className={`flex justify-center items-center ${classes.heroHead}`}>
+        <div className={`flex justify-center items-center ${classes.content}`}>
           <div>Watch something incredible.</div>
         </div>
       </div>
